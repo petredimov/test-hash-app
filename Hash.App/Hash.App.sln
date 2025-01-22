@@ -1,0 +1,22 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Hash.API", "Hash.API\Hash.API.csproj", "{36B0961F-6F73-47AF-88BB-F5F9710B998E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Hash.Data", "Hash.Data\Hash.Data.csproj", "{057E1B55-42ED-4A0D-B09D-1643ADF56C03}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{36B0961F-6F73-47AF-88BB-F5F9710B998E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{36B0961F-6F73-47AF-88BB-F5F9710B998E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{36B0961F-6F73-47AF-88BB-F5F9710B998E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{36B0961F-6F73-47AF-88BB-F5F9710B998E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{057E1B55-42ED-4A0D-B09D-1643ADF56C03}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{057E1B55-42ED-4A0D-B09D-1643ADF56C03}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{057E1B55-42ED-4A0D-B09D-1643ADF56C03}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{057E1B55-42ED-4A0D-B09D-1643ADF56C03}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal

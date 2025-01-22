@@ -1,0 +1,14 @@
+/Users/petredimov/Desktop/Code/Personal/test-hash-app/Hash.App/Hash.Data/obj/Debug/net8.0/Hash.Data.csproj.AssemblyReference.cache
+/Users/petredimov/Desktop/Code/Personal/test-hash-app/Hash.App/Hash.Data/obj/Debug/net8.0/Hash.Data.GeneratedMSBuildEditorConfig.editorconfig
+/Users/petredimov/Desktop/Code/Personal/test-hash-app/Hash.App/Hash.Data/obj/Debug/net8.0/Hash.Data.AssemblyInfoInputs.cache
+/Users/petredimov/Desktop/Code/Personal/test-hash-app/Hash.App/Hash.Data/obj/Debug/net8.0/Hash.Data.AssemblyInfo.cs
+/Users/petredimov/Desktop/Code/Personal/test-hash-app/Hash.App/Hash.Data/obj/Debug/net8.0/Hash.Data.csproj.CoreCompileInputs.cache
+/Users/petredimov/Desktop/Code/Personal/test-hash-app/Hash.App/Hash.Data/bin/Debug/net8.0/Hash.Data.deps.json
+/Users/petredimov/Desktop/Code/Personal/test-hash-app/Hash.App/Hash.Data/bin/Debug/net8.0/Hash.Data.runtimeconfig.json
+/Users/petredimov/Desktop/Code/Personal/test-hash-app/Hash.App/Hash.Data/bin/Debug/net8.0/Hash.Data.dll
+/Users/petredimov/Desktop/Code/Personal/test-hash-app/Hash.App/Hash.Data/bin/Debug/net8.0/Hash.Data.pdb
+/Users/petredimov/Desktop/Code/Personal/test-hash-app/Hash.App/Hash.Data/obj/Debug/net8.0/Hash.Data.dll
+/Users/petredimov/Desktop/Code/Personal/test-hash-app/Hash.App/Hash.Data/obj/Debug/net8.0/refint/Hash.Data.dll
+/Users/petredimov/Desktop/Code/Personal/test-hash-app/Hash.App/Hash.Data/obj/Debug/net8.0/Hash.Data.pdb
+/Users/petredimov/Desktop/Code/Personal/test-hash-app/Hash.App/Hash.Data/obj/Debug/net8.0/Hash.Data.genruntimeconfig.cache
+/Users/petredimov/Desktop/Code/Personal/test-hash-app/Hash.App/Hash.Data/obj/Debug/net8.0/ref/Hash.Data.dll
