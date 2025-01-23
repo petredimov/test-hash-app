@@ -9,203 +9,13 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a0a4473d-1b64-4478-8c4f-ad57a74090d6" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Hash.Processor/Hash.Processor.csproj" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Hash.Processor/Processor.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Hash.Processor/Program.cs" afterDir="false" />
+    <list default="true" id="a0a4473d-1b64-4478-8c4f-ad57a74090d6" name="Changes" comment="Commit all changes before apply ne git ignore">
+      <change afterPath="$PROJECT_DIR$/Hash.Tests/HashService/HashServiceTests.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.Hash.App/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Hash.App/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Hash.API/Controllers/HashController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Hash.API/Controllers/HashController.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Hash.API/bin/Debug/net8.0/BouncyCastle.Cryptography.dll" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Hash.API/bin/Debug/net8.0/EntityFramework.SqlServer.dll" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Hash.API/bin/Debug/net8.0/EntityFramework.dll" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Hash.API/bin/Debug/net8.0/Google.Protobuf.dll" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Hash.API/bin/Debug/net8.0/Hash.API" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Hash.API/bin/Debug/net8.0/Hash.API.deps.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Hash.API/bin/Debug/net8.0/Hash.API.dll" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Hash.API/bin/Debug/net8.0/Hash.API.pdb" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Hash.API/bin/Debug/net8.0/Hash.API.runtimeconfig.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Hash.API/bin/Debug/net8.0/Hash.Data.dll" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Hash.API/bin/Debug/net8.0/Hash.Data.pdb" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Hash.API/bin/Debug/net8.0/Humanizer.dll" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Hash.API/bin/Debug/net8.0/K4os.Compression.LZ4.Streams.dll" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Hash.API/bin/Debug/net8.0/K4os.Compression.LZ4.dll" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Hash.API/bin/Debug/net8.0/K4os.Hash.xxHash.dll" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Hash.API/bin/Debug/net8.0/MassTransit.Abstractions.dll" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Hash.API/bin/Debug/net8.0/MassTransit.ExtensionsDependencyInjectionIntegration.dll" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Hash.API/bin/Debug/net8.0/MassTransit.RabbitMqTransport.dll" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Hash.API/bin/Debug/net8.0/MassTransit.dll" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Hash.API/bin/Debug/net8.0/Microsoft.AspNetCore.OpenApi.dll" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Hash.API/bin/Debug/net8.0/Microsoft.Bcl.AsyncInterfaces.dll" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Hash.API/bin/Debug/net8.0/Microsoft.CodeAnalysis.CSharp.Workspaces.dll" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Hash.API/bin/Debug/net8.0/Microsoft.CodeAnalysis.CSharp.dll" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Hash.API/bin/Debug/net8.0/Microsoft.CodeAnalysis.Workspaces.dll" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Hash.API/bin/Debug/net8.0/Microsoft.CodeAnalysis.dll" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Hash.API/bin/Debug/net8.0/Microsoft.EntityFrameworkCore.Abstractions.dll" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Hash.API/bin/Debug/net8.0/Microsoft.EntityFrameworkCore.Design.dll" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Hash.API/bin/Debug/net8.0/Microsoft.EntityFrameworkCore.Relational.dll" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Hash.API/bin/Debug/net8.0/Microsoft.EntityFrameworkCore.dll" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Hash.API/bin/Debug/net8.0/Microsoft.Extensions.Configuration.Abstractions.dll" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Hash.API/bin/Debug/net8.0/Microsoft.Extensions.DependencyModel.dll" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Hash.API/bin/Debug/net8.0/Microsoft.Extensions.Primitives.dll" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Hash.API/bin/Debug/net8.0/Microsoft.OpenApi.dll" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Hash.API/bin/Debug/net8.0/Microsoft.Win32.SystemEvents.dll" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Hash.API/bin/Debug/net8.0/Mono.TextTemplating.dll" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Hash.API/bin/Debug/net8.0/MySql.Data.EntityFramework.dll" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Hash.API/bin/Debug/net8.0/MySql.Data.EntityFrameworkCore.dll" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Hash.API/bin/Debug/net8.0/MySql.Data.dll" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Hash.API/bin/Debug/net8.0/MySqlConnector.dll" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Hash.API/bin/Debug/net8.0/Pomelo.EntityFrameworkCore.MySql.dll" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Hash.API/bin/Debug/net8.0/RabbitMQ.Client.dll" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Hash.API/bin/Debug/net8.0/Swashbuckle.AspNetCore.Swagger.dll" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Hash.API/bin/Debug/net8.0/Swashbuckle.AspNetCore.SwaggerGen.dll" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Hash.API/bin/Debug/net8.0/Swashbuckle.AspNetCore.SwaggerUI.dll" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Hash.API/bin/Debug/net8.0/System.CodeDom.dll" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Hash.API/bin/Debug/net8.0/System.Composition.AttributedModel.dll" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Hash.API/bin/Debug/net8.0/System.Composition.Convention.dll" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Hash.API/bin/Debug/net8.0/System.Composition.Hosting.dll" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Hash.API/bin/Debug/net8.0/System.Composition.Runtime.dll" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Hash.API/bin/Debug/net8.0/System.Composition.TypedParts.dll" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Hash.API/bin/Debug/net8.0/System.Configuration.ConfigurationManager.dll" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Hash.API/bin/Debug/net8.0/System.Data.SqlClient.dll" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Hash.API/bin/Debug/net8.0/System.Drawing.Common.dll" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Hash.API/bin/Debug/net8.0/System.Security.Cryptography.ProtectedData.dll" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Hash.API/bin/Debug/net8.0/System.Security.Permissions.dll" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Hash.API/bin/Debug/net8.0/System.Windows.Extensions.dll" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Hash.API/bin/Debug/net8.0/ZstdSharp.dll" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Hash.API/bin/Debug/net8.0/appsettings.Development.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Hash.API/bin/Debug/net8.0/appsettings.json" beforeDir="false" afterPath="$PROJECT_DIR$/Hash.Processor/appsettings.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Hash.API/bin/Debug/net8.0/cs/Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Hash.API/bin/Debug/net8.0/cs/Microsoft.CodeAnalysis.CSharp.resources.dll" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Hash.API/bin/Debug/net8.0/cs/Microsoft.CodeAnalysis.Workspaces.resources.dll" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Hash.API/bin/Debug/net8.0/cs/Microsoft.CodeAnalysis.resources.dll" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Hash.API/bin/Debug/net8.0/de/Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Hash.API/bin/Debug/net8.0/de/Microsoft.CodeAnalysis.CSharp.resources.dll" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Hash.API/bin/Debug/net8.0/de/Microsoft.CodeAnalysis.Workspaces.resources.dll" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Hash.API/bin/Debug/net8.0/de/Microsoft.CodeAnalysis.resources.dll" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Hash.API/bin/Debug/net8.0/es/Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Hash.API/bin/Debug/net8.0/es/Microsoft.CodeAnalysis.CSharp.resources.dll" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Hash.API/bin/Debug/net8.0/es/Microsoft.CodeAnalysis.Workspaces.resources.dll" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Hash.API/bin/Debug/net8.0/es/Microsoft.CodeAnalysis.resources.dll" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Hash.API/bin/Debug/net8.0/fr/Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Hash.API/bin/Debug/net8.0/fr/Microsoft.CodeAnalysis.CSharp.resources.dll" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Hash.API/bin/Debug/net8.0/fr/Microsoft.CodeAnalysis.Workspaces.resources.dll" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Hash.API/bin/Debug/net8.0/fr/Microsoft.CodeAnalysis.resources.dll" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Hash.API/bin/Debug/net8.0/it/Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Hash.API/bin/Debug/net8.0/it/Microsoft.CodeAnalysis.CSharp.resources.dll" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Hash.API/bin/Debug/net8.0/it/Microsoft.CodeAnalysis.Workspaces.resources.dll" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Hash.API/bin/Debug/net8.0/it/Microsoft.CodeAnalysis.resources.dll" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Hash.API/bin/Debug/net8.0/ja/Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Hash.API/bin/Debug/net8.0/ja/Microsoft.CodeAnalysis.CSharp.resources.dll" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Hash.API/bin/Debug/net8.0/ja/Microsoft.CodeAnalysis.Workspaces.resources.dll" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Hash.API/bin/Debug/net8.0/ja/Microsoft.CodeAnalysis.resources.dll" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Hash.API/bin/Debug/net8.0/ko/Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Hash.API/bin/Debug/net8.0/ko/Microsoft.CodeAnalysis.CSharp.resources.dll" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Hash.API/bin/Debug/net8.0/ko/Microsoft.CodeAnalysis.Workspaces.resources.dll" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Hash.API/bin/Debug/net8.0/ko/Microsoft.CodeAnalysis.resources.dll" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Hash.API/bin/Debug/net8.0/pl/Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Hash.API/bin/Debug/net8.0/pl/Microsoft.CodeAnalysis.CSharp.resources.dll" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Hash.API/bin/Debug/net8.0/pl/Microsoft.CodeAnalysis.Workspaces.resources.dll" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Hash.API/bin/Debug/net8.0/pl/Microsoft.CodeAnalysis.resources.dll" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Hash.API/bin/Debug/net8.0/pt-BR/Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Hash.API/bin/Debug/net8.0/pt-BR/Microsoft.CodeAnalysis.CSharp.resources.dll" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Hash.API/bin/Debug/net8.0/pt-BR/Microsoft.CodeAnalysis.Workspaces.resources.dll" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Hash.API/bin/Debug/net8.0/pt-BR/Microsoft.CodeAnalysis.resources.dll" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Hash.API/bin/Debug/net8.0/ru/Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Hash.API/bin/Debug/net8.0/ru/Microsoft.CodeAnalysis.CSharp.resources.dll" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Hash.API/bin/Debug/net8.0/ru/Microsoft.CodeAnalysis.Workspaces.resources.dll" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Hash.API/bin/Debug/net8.0/ru/Microsoft.CodeAnalysis.resources.dll" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Hash.API/bin/Debug/net8.0/runtimes/unix/lib/net6.0/System.Drawing.Common.dll" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Hash.API/bin/Debug/net8.0/runtimes/unix/lib/netcoreapp2.1/System.Data.SqlClient.dll" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Hash.API/bin/Debug/net8.0/runtimes/win-arm64/native/sni.dll" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Hash.API/bin/Debug/net8.0/runtimes/win-x64/native/comerr64.dll" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Hash.API/bin/Debug/net8.0/runtimes/win-x64/native/gssapi64.dll" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Hash.API/bin/Debug/net8.0/runtimes/win-x64/native/k5sprt64.dll" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Hash.API/bin/Debug/net8.0/runtimes/win-x64/native/krb5_64.dll" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Hash.API/bin/Debug/net8.0/runtimes/win-x64/native/krbcc64.dll" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Hash.API/bin/Debug/net8.0/runtimes/win-x64/native/sni.dll" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Hash.API/bin/Debug/net8.0/runtimes/win-x86/native/sni.dll" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Hash.API/bin/Debug/net8.0/runtimes/win/lib/net6.0/Microsoft.Win32.SystemEvents.dll" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Hash.API/bin/Debug/net8.0/runtimes/win/lib/net6.0/System.Drawing.Common.dll" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Hash.API/bin/Debug/net8.0/runtimes/win/lib/net6.0/System.Security.Cryptography.ProtectedData.dll" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Hash.API/bin/Debug/net8.0/runtimes/win/lib/net6.0/System.Windows.Extensions.dll" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Hash.API/bin/Debug/net8.0/runtimes/win/lib/netcoreapp2.1/System.Data.SqlClient.dll" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Hash.API/bin/Debug/net8.0/tr/Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Hash.API/bin/Debug/net8.0/tr/Microsoft.CodeAnalysis.CSharp.resources.dll" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Hash.API/bin/Debug/net8.0/tr/Microsoft.CodeAnalysis.Workspaces.resources.dll" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Hash.API/bin/Debug/net8.0/tr/Microsoft.CodeAnalysis.resources.dll" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Hash.API/bin/Debug/net8.0/zh-Hans/Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Hash.API/bin/Debug/net8.0/zh-Hans/Microsoft.CodeAnalysis.CSharp.resources.dll" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Hash.API/bin/Debug/net8.0/zh-Hans/Microsoft.CodeAnalysis.Workspaces.resources.dll" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Hash.API/bin/Debug/net8.0/zh-Hans/Microsoft.CodeAnalysis.resources.dll" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Hash.API/bin/Debug/net8.0/zh-Hant/Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Hash.API/bin/Debug/net8.0/zh-Hant/Microsoft.CodeAnalysis.CSharp.resources.dll" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Hash.API/bin/Debug/net8.0/zh-Hant/Microsoft.CodeAnalysis.Workspaces.resources.dll" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Hash.API/bin/Debug/net8.0/zh-Hant/Microsoft.CodeAnalysis.resources.dll" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Hash.API/obj/Debug/net8.0/.NETCoreApp,Version=v8.0.AssemblyAttributes.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Hash.API/obj/Debug/net8.0/Hash.API.AssemblyInfo.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Hash.API/obj/Debug/net8.0/Hash.API.AssemblyInfoInputs.cache" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Hash.API/obj/Debug/net8.0/Hash.API.GeneratedMSBuildEditorConfig.editorconfig" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Hash.API/obj/Debug/net8.0/Hash.API.GlobalUsings.g.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Hash.API/obj/Debug/net8.0/Hash.API.MvcApplicationPartsAssemblyInfo.cache" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Hash.API/obj/Debug/net8.0/Hash.API.MvcApplicationPartsAssemblyInfo.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Hash.API/obj/Debug/net8.0/Hash.API.assets.cache" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Hash.API/obj/Debug/net8.0/Hash.API.csproj.AssemblyReference.cache" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Hash.API/obj/Debug/net8.0/Hash.API.csproj.CoreCompileInputs.cache" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Hash.API/obj/Debug/net8.0/Hash.API.csproj.FileListAbsolute.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Hash.API/obj/Debug/net8.0/Hash.API.csproj.Up2Date" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Hash.API/obj/Debug/net8.0/Hash.API.dll" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Hash.API/obj/Debug/net8.0/Hash.API.genruntimeconfig.cache" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Hash.API/obj/Debug/net8.0/Hash.API.pdb" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Hash.API/obj/Debug/net8.0/apphost" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Hash.API/obj/Debug/net8.0/ref/Hash.API.dll" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Hash.API/obj/Debug/net8.0/refint/Hash.API.dll" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Hash.API/obj/Debug/net8.0/staticwebassets.build.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Hash.API/obj/Debug/net8.0/staticwebassets/msbuild.build.Hash.API.props" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Hash.API/obj/Debug/net8.0/staticwebassets/msbuild.buildMultiTargeting.Hash.API.props" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Hash.API/obj/Debug/net8.0/staticwebassets/msbuild.buildTransitive.Hash.API.props" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Hash.API/obj/Hash.API.csproj.EntityFrameworkCore.targets" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Hash.API/obj/Hash.API.csproj.nuget.dgspec.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Hash.API/obj/Hash.API.csproj.nuget.g.props" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Hash.API/obj/Hash.API.csproj.nuget.g.targets" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Hash.API/obj/project.assets.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Hash.API/obj/project.nuget.cache" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Hash.API/obj/project.packagespec.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Hash.API/obj/rider.project.model.nuget.info" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Hash.API/obj/rider.project.restore.info" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/Hash.App.sln" beforeDir="false" afterPath="$PROJECT_DIR$/Hash.App.sln" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Hash.App.sln.DotSettings.user" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Hash.Data/Extensions/ServiceCollectionExtensions.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Hash.Data/Extensions/ServiceCollectionExtensions.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Hash.Data/Services/Hash/HashService.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Hash.Data/Services/Hash/HashService.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Hash.Data/Services/Hash/IHashService.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Hash.Data/Services/Hash/IHashService.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Hash.Data/Settings/RabbitMQSettings.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Hash.Data/Settings/RabbitMQSettings.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Hash.Data/bin/Debug/net8.0/Hash.Data.deps.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Hash.Data/bin/Debug/net8.0/Hash.Data.dll" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Hash.Data/bin/Debug/net8.0/Hash.Data.pdb" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Hash.Data/bin/Debug/net8.0/Hash.Data.runtimeconfig.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Hash.Data/obj/Debug/net8.0/.NETCoreApp,Version=v8.0.AssemblyAttributes.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Hash.Data/obj/Debug/net8.0/Hash.Data.AssemblyInfo.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Hash.Data/obj/Debug/net8.0/Hash.Data.AssemblyInfoInputs.cache" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Hash.Data/obj/Debug/net8.0/Hash.Data.GeneratedMSBuildEditorConfig.editorconfig" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Hash.Data/obj/Debug/net8.0/Hash.Data.GlobalUsings.g.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Hash.Data/obj/Debug/net8.0/Hash.Data.assets.cache" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Hash.Data/obj/Debug/net8.0/Hash.Data.csproj.AssemblyReference.cache" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Hash.Data/obj/Debug/net8.0/Hash.Data.csproj.CoreCompileInputs.cache" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Hash.Data/obj/Debug/net8.0/Hash.Data.csproj.FileListAbsolute.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Hash.Data/obj/Debug/net8.0/Hash.Data.dll" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Hash.Data/obj/Debug/net8.0/Hash.Data.genruntimeconfig.cache" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Hash.Data/obj/Debug/net8.0/Hash.Data.pdb" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Hash.Data/obj/Debug/net8.0/ref/Hash.Data.dll" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Hash.Data/obj/Debug/net8.0/refint/Hash.Data.dll" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Hash.Data/obj/Hash.Data.csproj.EntityFrameworkCore.targets" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Hash.Data/obj/Hash.Data.csproj.nuget.dgspec.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Hash.Data/obj/Hash.Data.csproj.nuget.g.props" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Hash.Data/obj/Hash.Data.csproj.nuget.g.targets" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Hash.Data/obj/project.assets.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Hash.Data/obj/project.nuget.cache" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Hash.Data/obj/project.packagespec.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Hash.Data/obj/rider.project.model.nuget.info" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Hash.Data/obj/rider.project.restore.info" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Hash.Data/Context/DatabaseContext.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Hash.Data/Context/DatabaseContext.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Hash.Processor/Processor.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Hash.Processor/Processor.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Hash.Processor/Program.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Hash.Processor/Program.cs" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -236,10 +46,11 @@
     <setting file="mock:///Dummy.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="mock:///Dummy.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="mock:///Users/petredimov/Desktop/Code/Personal/test-hash-app/Hash.App/Hash.API/bin/Debug/net8.0/appsettings.json" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Hash.API/obj/Debug/net8.0/.NETCoreApp,Version=v8.0.AssemblyAttributes.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="mock:///Users/petredimov/Desktop/Code/Personal/test-hash-app/Hash.App/Hash.Data/Extensions/ServiceCollectionExtensions.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="mock:///Users/petredimov/Desktop/Code/Personal/test-hash-app/Hash.App/Hash.Data/Settings/RabbitMQSettings.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Hash.Testts/UnitTest1.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/07591a95a4ee48739104536f73fbfc8624000/63/7645aca4/MySQLOptionsExtension.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/34e54cf52b4a4c2b82645ccc3a46837e5e000/b7/dc89fcf3/ProxyGenerator.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/990126b794024fe2bd16aebdd37eba1d7b600/6d/de2162b0/MySqlServiceCollectionExtensions.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/2473b8d82a9594661f91c5e06c4cd4af621d75d96da762a9e5a66e3e73b9a/MySqlOptionsExtension.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/39d4ca1376e2af10d382c4808abea5b1154327b287141263d59bbc4c7ce062/IModel.cs" root0="SKIP_HIGHLIGHTING" />
@@ -259,22 +70,24 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;.NET Launch Settings Profile.Hash.API: https.executor&quot;: &quot;Debug&quot;,
-    &quot;.NET Project.Hash.Processor.executor&quot;: &quot;Debug&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;RiderNuGetOptionsPageId&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    ".NET Launch Settings Profile.Hash.API: https.executor": "Debug",
+    ".NET Project.Hash.Processor.executor": "Debug",
+    "6d4266b8-8f49-442f-a192-f1a5be44e127.executor": "Debug",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.git.unshallow": "true",
+    "XThreadsFramesViewSplitterKey": "0.49333334",
+    "git-widget-placeholder": "main",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "settings.editor.selected.configurable": "RiderNuGetOptionsPageId",
+    "vue.rearranger.settings.migration": "true"
   }
-}</component>
+}]]></component>
   <component name="RunManager" selected=".NET Project.Hash.Processor">
     <configuration name="Hash.Processor" type="DotNetProject" factoryName=".NET Project">
       <option name="EXE_PATH" value="" />
@@ -336,7 +149,7 @@
       <workItem from="1737540701921" duration="15046000" />
       <workItem from="1737578536734" duration="1897000" />
       <workItem from="1737615495251" duration="15202000" />
-      <workItem from="1737638963849" duration="2495000" />
+      <workItem from="1737638963849" duration="6497000" />
     </task>
     <task id="LOCAL-00001" summary="Initial check, issue with git ignore.">
       <option name="closed" value="true" />
@@ -354,7 +167,15 @@
       <option name="project" value="LOCAL" />
       <updated>1737579862678</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="Commit all changes before apply ne git ignore">
+      <option name="closed" value="true" />
+      <created>1737641802297</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1737641802297</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -366,7 +187,8 @@
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="true" />
     <MESSAGE value="Initial check, issue with git ignore." />
     <MESSAGE value="Initial check, git ignore issue." />
-    <option name="LAST_COMMIT_MESSAGE" value="Initial check, git ignore issue." />
+    <MESSAGE value="Commit all changes before apply ne git ignore" />
+    <option name="LAST_COMMIT_MESSAGE" value="Commit all changes before apply ne git ignore" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

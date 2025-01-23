@@ -3,7 +3,6 @@ using Hash.Data.Context.Entities;
 using Hash.Data.Events;
 using Hash.Data.Services;
 using Hash.Data.Settings;
-using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
 using Microsoft.Extensions.Logging;

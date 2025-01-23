@@ -10,7 +10,7 @@ builder.Services.RegisterDatabaseContext(builder.Configuration);
 builder.Services.RegisterServices();
 builder.Services.RegisterServices();
 
-// Use built-in consumer HashProcess
+// Use built-in consumer HashConsumer
 builder.Services.RegisterConsumers(builder.Configuration);
 
 // Use hosted processor
