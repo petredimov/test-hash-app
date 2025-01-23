@@ -31,45 +31,21 @@ public class HashService (ILogger<HashService> logger, IPublishEndpoint publishE
             for (var i = 0; i < count; i++)
             {
                 batchData.Add(GenerateRandomBase64Sha1Hash());
-                
-                if (i >= skip || i == count - 1)
+
+                if (i < skip && i != count - 1) continue;
+                publishEndpoint.Publish(new HashEvent()
                 {
-                    publishEndpoint.Publish(new HashEvent()
-                    {
-                        Data = batchData,
-                    });
+                    Data = batchData,
+                });
                     
-                    batchData = [];
-                    skip += batchSize;
-                }
+                batchData = [];
+                skip += batchSize;
             }
         }
         catch (Exception ex)
         {
             logger.LogError("Exception occured at GenerateHashesAsync (HashService)");
         }
-    }
-    
-    public async Task<GetHashesViewModel> GetHashesAsync()
-    {
-        var hashesGroupedByDate = context.Hashes.GroupBy(x => x.Date.Date);
-
-        var hashes = new List<HashAnalyticsViewModel>();
-        foreach (var group in hashesGroupedByDate)
-        {
-            hashes.Add(new HashAnalyticsViewModel()
-            {
-                Date = group.First().Date.ToString("yyyy-MM-dd"),
-                Count = group.Count(),
-            });
-        }
-            
-        var result = new GetHashesViewModel()
-        {
-            Hashes = hashes,
-        };
-
-        return result;
     }
 
     public async Task AddHashListAsync(List<HashModel> data)

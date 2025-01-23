@@ -1,6 +1,7 @@
 using Hash.Data.Consumer;
 using Hash.Data.Context;
 using Hash.Data.Services;
+using Hash.Data.Settings;
 using MassTransit;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
@@ -24,19 +25,17 @@ public static class ServiceCollectionExtensions
     
     public static IServiceCollection RegisterConsumers(this IServiceCollection services, IConfiguration configuration)
     {
+        var rabbitSettings = configuration.GetSection("RabbitMQSettings");
+        
         services.AddMassTransit(busConfigurator =>
         {
             busConfigurator.SetKebabCaseEndpointNameFormatter();
 
             var numOfConsumers = int.Parse(configuration["RabbitMQSettings:ConcurrencyLimit"]);
 
-            for (var i = 0; i < numOfConsumers; i++)
-            {
                 busConfigurator.AddConsumer<HashConsumer>()
                     .Endpoint(e => e.Name = configuration["RabbitMQSettings:QueueName"]);
-            }
-            
-
+                
             busConfigurator.UsingRabbitMq((context, configurator) =>
             {
                 configurator.UseMessageRetry(retryConfig =>

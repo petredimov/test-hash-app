@@ -12,6 +12,17 @@ public class HashController (IHashService hashService, IHashAnalyticsService has
     public async Task<IActionResult> Post(PostHashesInputModel? model)
     {
         model ??= new PostHashesInputModel();
+
+        if (model.BatchSize == 0)
+        {
+            model.BatchSize = 1000;
+        }
+
+        if (model.NumOfMessages == 0)
+        {
+            model.NumOfMessages = 40000;
+        }
+        
         hashService.GenerateHashesAsync(model.NumOfMessages, model.BatchSize);
         return Ok(new PostHashesOutputModel() { Published = model.NumOfMessages, BatchSize = model.BatchSize});
     }

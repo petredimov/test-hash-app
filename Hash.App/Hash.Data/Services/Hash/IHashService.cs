@@ -7,6 +7,5 @@ namespace Hash.Data.Services;
 public interface IHashService
 {
     void GenerateHashesAsync(int count, int batchSize = 1000);
-    Task<GetHashesViewModel> GetHashesAsync();
     Task AddHashListAsync(List<HashModel> data);
 }
